@@ -25,6 +25,7 @@ public class Main {
                 retangulo.setAltura(alturaR);
                 System.out.println("Area: " + retangulo.calcularArea());
                 System.out.println("Perimetro: " + retangulo.calcularPerimetro());
+                scanner.close();
                 break;
             
             case "c":
@@ -34,6 +35,7 @@ public class Main {
                 circulo.setRaio(raioR);
                 System.out.println("Area: " + circulo.calcularArea());
                 System.out.println("Perimetro: " + circulo.calcularPerimetro());
+                scanner.close();
                 break;
             default:
                 throw new AssertionError();

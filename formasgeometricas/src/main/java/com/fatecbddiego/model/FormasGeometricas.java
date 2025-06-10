@@ -20,11 +20,6 @@ public abstract class FormasGeometricas {
         return perimetro;
     }
 
-    public double calcularArea () {
-        return area;
-    }
-
-    public double calcularPerimetro () {
-        return perimetro;
-    }
+    public abstract double calcularArea();
+    public abstract double calcularPerimetro();
 }
